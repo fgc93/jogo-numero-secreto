@@ -16,6 +16,7 @@ function exibirTextoNaTela(tag, texto) {
     } else {
         console.log("Web Speech API não suportada neste navegador.");
     }
+}
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
